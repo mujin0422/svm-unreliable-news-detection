@@ -1,0 +1,8 @@
+numpy>=2.0
+pandas>=2.2
+scikit-learn>=1.5
+matplotlib>=3.8
+joblib>=1.4
+datasets>=3.0
+underthesea>=6.8
+jupyterlab>=4.2

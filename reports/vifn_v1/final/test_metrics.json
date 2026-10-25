@@ -1,0 +1,39 @@
+{
+  "dataset": "ViFN V1",
+  "protocol": "Clean Train + Original Test",
+  "train_samples": 924,
+  "test_samples": 282,
+  "model": "TF-IDF + LinearSVC",
+  "C": 1.0,
+  "class_weight": "balanced",
+  "ngram_range": [
+    1,
+    2
+  ],
+  "cv_macro_f1": 0.835794,
+  "test_sha256": "35f7d9f5726bc0ae52060a9df04a94b4f41840bdee247ab65848fef7f00ea662",
+  "official_test_metrics": {
+    "accuracy": 0.8794326241134752,
+    "macro_f1": 0.8788231130883171,
+    "precision_fake": 0.9193548387096774,
+    "recall_fake": 0.8260869565217391,
+    "f1_fake": 0.8702290076335878,
+    "tn": 134,
+    "fp": 10,
+    "fn": 24,
+    "tp": 114
+  },
+  "unique_test_samples": 273,
+  "unique_test_metrics": {
+    "accuracy": 0.8791208791208791,
+    "macro_f1": 0.8778357854769815,
+    "precision_fake": 0.9137931034482759,
+    "recall_fake": 0.8217054263565892,
+    "f1_fake": 0.8653061224489796,
+    "tn": 134,
+    "fp": 10,
+    "fn": 23,
+    "tp": 106
+  },
+  "duplicate_label_conflicts": 0
+}

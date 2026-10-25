@@ -1,0 +1,14 @@
+{
+  "dataset": "ViFN V1 - Cleaned",
+  "train_samples": 924,
+  "feature_extraction": "Word TF-IDF (1,2)",
+  "classifier": "LinearSVC",
+  "cv_folds": 5,
+  "selection_metric": "Macro F1",
+  "best_parameters": {
+    "svm__C": 1.0,
+    "svm__class_weight": "balanced"
+  },
+  "best_cv_macro_f1": 0.8357943637955956,
+  "test_evaluated": false
+}

@@ -1,0 +1,26 @@
+{
+  "dataset": "ReINTEL v2 Reviewed",
+  "train_samples": 3663,
+  "test_samples": 611,
+  "model": "TF-IDF + LinearSVC",
+  "C": 0.1,
+  "class_weight": "balanced",
+  "ngram_range": [
+    1,
+    2
+  ],
+  "selection_metric": "CV Macro F1",
+  "sklearn_version": "1.9.1",
+  "test_sha256": "522776ee6302bd945c6a0e51d70df2de7e1a049adcf1316ae62ec781b7cf8c40",
+  "metrics": {
+    "accuracy": 0.8641571194762684,
+    "macro_f1": 0.7707586531115943,
+    "precision_1": 0.5847457627118644,
+    "recall_1": 0.6699029126213593,
+    "f1_1": 0.6244343891402715,
+    "tn": 459,
+    "fp": 49,
+    "fn": 34,
+    "tp": 69
+  }
+}
